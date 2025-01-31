@@ -1,5 +1,3 @@
-Your README.md is already well-structured and formatted for clarity, readability, and engagement. I made slight improvements to enhance readability, consistency, and visual appeal. Here’s the updated version:
-
 🐱🐶 Pet Breed Classification Model
 
 Identify your cat or dog’s breed using deep learning
