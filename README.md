@@ -2,6 +2,8 @@
 ### Identify the breed of a cat or dog using deep learning  
 📌 **Author:** [megan-es](https://github.com/megan-es)  
 
+(images/kali1.jpeg)
+
 ---
 
 ## **📖 What This Project Does**  
@@ -31,13 +33,6 @@ This project uses **deep learning** to classify images of **cats and dogs** by b
 ✔️ **Training Accuracy:** ~95%  
 ✔️ **Validation Accuracy:** ~90%  
 
-📌 **Example Predictions:**  
-
-🐱 **Predicted Cat Breed: Siamese (98.2%)**  
-![Siamese](test_images/siamese_example.jpg)  
-
-🐶 **Predicted Dog Breed: Golden Retriever (97.5%)**  
-![Golden Retriever](test_images/golden_retriever_example.jpg)  
 
 ---
 
