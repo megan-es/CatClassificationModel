@@ -2,7 +2,7 @@
 ### Identify the breed of a cat or dog using deep learning  
 📌 **Author:** [megan-es](https://github.com/megan-es)  
 
- ![Kali Image](images/kali1.jpeg)
+ ![Kali Image](images/kali1.jpeg){width="300"}
 
 ---
 
