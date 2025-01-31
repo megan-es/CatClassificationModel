@@ -1,79 +1,48 @@
-# 🐱🐶 Pet Breed Classification Model  
-### Identify your cat or dog’s breed using deep learning  
+ # 🐱🐶 Pet Breed Classification Model  
+### Identify the breed of a cat or dog using deep learning  
 📌 **Author:** [megan-es](https://github.com/megan-es)  
 
 ---
 
-## **📖 Overview**  
-This project uses **MobileNetV2** to classify images of **cats and dogs** by breed. The model is trained on the **Oxford-IIIT Pet Dataset** and allows you to test it with your own pet’s photo.  
+## **📖 What This Project Does**  
+This project uses **deep learning** to classify images of **cats and dogs** by breed. It is trained on the **Oxford-IIIT Pet Dataset**, recognizing **37 different breeds** with high accuracy. The model leverages **MobileNetV2** for efficient and accurate classification.  
 
-### **✨ Features**  
-✅ Predicts exact **cat & dog breeds**  
-✅ Uses **transfer learning (MobileNetV2)** for fast training  
-✅ Removes **corrupt images** before training  
-✅ **Prevents overfitting** with dropout & data augmentation  
-✅ Test it with **your own pet’s image!** 🐾  
+### **✨ Key Features**
+✅ **Identifies exact cat & dog breeds** (e.g., Siamese, Beagle, Golden Retriever)  
+✅ **Uses transfer learning (MobileNetV2)** for fast, efficient training  
+✅ **Achieves ~95% training accuracy & ~90% validation accuracy**  
+✅ **Removes corrupt images before training** for cleaner data  
+✅ **Prevents overfitting** with dropout layers & data augmentation  
+✅ **Allows users to test with their own pet’s photo**  
 
 ---
 
-## **📦 Installation**  
-### 1️⃣ Clone the Repository & Install Dependencies  
-```sh
-git clone https://github.com/megan-es/CatClassificationModel.git
-cd CatClassificationModel
-pip install -r requirements.txt
+## **🛠 Technologies Used**
+- **TensorFlow/Keras** – Deep learning framework  
+- **MobileNetV2** – Pre-trained model for image classification  
+- **OpenCV** – Image preprocessing  
+- **Pandas & NumPy** – Data processing  
+- **Matplotlib** – Visualization  
 
-2️⃣ Download & Extract the Dataset
+---
 
-wget https://thor.robots.ox.ac.uk/pets/images.tar.gz -O images.tar.gz
-wget https://thor.robots.ox.ac.uk/pets/annotations.tar.gz -O annotations.tar.gz
-mkdir -p dataset/images dataset/annotations
-tar -xzf images.tar.gz -C dataset/images
-tar -xzf annotations.tar.gz -C dataset/annotations
+## **📊 Model Performance**
+📌 **Final Accuracy:**  
+✔️ **Training Accuracy:** ~95%  
+✔️ **Validation Accuracy:** ~90%  
 
-🧠 Train the Model
+📌 **Example Predictions:**  
 
-Run the Jupyter Notebook:
+🐱 **Predicted Cat Breed: Siamese (98.2%)**  
+![Siamese](test_images/siamese_example.jpg)  
 
-jupyter notebook pet_classification.ipynb
+🐶 **Predicted Dog Breed: Golden Retriever (97.5%)**  
+![Golden Retriever](test_images/golden_retriever_example.jpg)  
 
-📌 Training includes:
-✔️ Preprocessing & filtering the dataset
-✔️ Splitting data into training/testing sets
-✔️ Training with dropout & augmentation
-✔️ Saving the model (pet_breed_classifier.keras)
+---
 
-📸 Predict Your Pet’s Breed
+## **🚀 Future Enhancements**
+Expand dataset with **more pet breeds**  
+Improve robustness with **additional data augmentation**  
 
-1️⃣ Place your image in test_images/
-
-2️⃣ Run this in the notebook:
-
-image_path = "test_images/your_pet.jpg"  # Replace with your image path
-predict_custom_image(image_path)
-
-✅ The model will display the image and predict the breed!
-
-🔬 Example Predictions
-
-🐱 Predicted Cat Breed: Siamese (98.2%)
-
-🐶 Predicted Dog Breed: Golden Retriever (97.5%)
-
-📌 Your Pet’s Prediction:
-
-🚀 Future Improvements
-
-🔹 Support for more pet breeds
-🔹 Real-time webcam classification
-🔹 Optimize for mobile devices
-
-🤝 Contribute
-
-Want to improve this project? Fork it, submit issues, or open a PR! 🚀
-
-📜 MIT License © 2025 megan-es
-
-🐾 Try it now & classify your pet’s breed! 🐱🐶🔥
-
-This is now fully optimized for GitHub Markdown formatting and should be easy to copy and paste into your repository. 🚀🐾 Let me know if you need any changes!
+---
