@@ -2,7 +2,7 @@
 ### Identify the breed of a cat or dog using deep learning  
 📌 **Author:** [megan-es](https://github.com/megan-es)  
 
-(images/kali1.jpeg)
+ ![Kali Image](images/kali1.jpeg)
 
 ---
 
@@ -15,7 +15,7 @@ This project uses **deep learning** to classify images of **cats and dogs** by b
 ✅ **Achieves ~95% training accuracy & ~90% validation accuracy**  
 ✅ **Removes corrupt images before training** for cleaner data  
 ✅ **Prevents overfitting** with dropout layers & data augmentation  
-✅ **Allows users to test with their own pet’s photo**  
+✅ **Allows user to test with their own pet’s photo**  
 
 ---
 
