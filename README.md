@@ -1,8 +1,8 @@
  # 🐱🐶 Pet Breed Classification Model  
 ### Identify the breed of a cat or dog using deep learning  
-📌 **Author:** [megan-es](https://github.com/megan-es)  
+**Author:** [Megan Smith](https://www.linkedin.com/in/-megan-e-smith/)
 
-<img src="pictures_of_my_cat/kali1.jpeg" alt="Kali Image" width="300">
+<img src="kali1.jpeg" alt="Kali Image" width="300">
 
 ---
 
@@ -31,6 +31,12 @@ This project uses **deep learning** to classify images of **cats and dogs** by b
 **Final Accuracy:**  
 **Training Accuracy:** ~95%  
 **Validation Accuracy:** ~90%  
+
+---
+
+## **Limitations**
+- This model is trained on 37 breeds, meaning that it will not be inclusive of all breeds of cats or dogs
+- Many pets (and most cats) are not purebread- for mixed breeds, this model can only make a low-confidence guess based off of features in common with breeds in the dataset
 
 
 ---
